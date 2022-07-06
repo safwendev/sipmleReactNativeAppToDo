@@ -9,6 +9,9 @@ const header= ()=> {
     return(
         <View style={styles.header} >
             <Text style={styles.title} > TODY </Text>
+            <Text style={styles.text}>
+                What you think to do today ?
+            </Text>
         </View>
 
     )
@@ -22,7 +25,14 @@ const styles=StyleSheet.create({
     },
     title:{
         textAlign:'center',
-        fontSize:25
+        fontSize:25,
+        fontStyle:'italic'
+    },
+    text :{
+        marginTop:20,
+        paddingLeft:15,
+        fontSize:15,
+        
 
     }
 })
