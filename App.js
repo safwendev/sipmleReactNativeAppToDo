@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
-import { FlatList, StyleSheet,Keyboard,
-   Text, View,ScrollView,KeyboardAvoidingView,
-   TextInput,TouchableOpacity
+import {  StyleSheet , Keyboard,
+   Text, View , ScrollView , KeyboardAvoidingView,
+   TextInput , TouchableOpacity
  } from 'react-native';
 
 import Item from './components/items';
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 25,
     fontWeight: 'bold'
   },
   items: {
